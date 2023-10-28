@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleHome.css">
+    <style>
+        .spanOfexample {
+            color: crimson;
+            background-color: #f1f1f1;
+        }
+
+        #table1 {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #table,
+        td {
+            padding: 7px 20px;
+        }
+
+
+        #table1 tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .paragraphINStrucStart {
+            padding-left: 7px;
+            margin-top: 6px;
+            margin-bottom: 20px;
+        }
+
+        .paragraphINStrucEnd {
+            padding-left: 7px;
+            margin-top: 20px;
+            margin-bottom: 6px;
+        }
+
+        .DivINsrtuc {
+            border: 1px solid gray;
+            width: 90%;
+            margin-left: 3%;
+            margin-bottom: 2%;
+        }
+
+        .LinkInTable {
+            color: black;
+        }
+
+        .LinkInTable:hover {
+            color: #04AA6D;
+        }
+
+        #linkBeforeFooter {
+            background-color: white;
+            color: black;
+            border: #ddd solid 1px;
+            left: 50%;
+        }
+
+        .center {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 40%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section class="contener">
+        <div id="rootNav">
+            <img src="images/w3c.PNG" alt="W3C Logo" style="height: 60px; width:60px; float: left;">
+            <a href="#" class="linkRootNav">Tutorials</a>
+            <a href="#" class="linkRootNav">Exercises</a>
+            <a href="#" class="linkRootNav">Certificates</a>
+            <a href="#" class="linkRootNav">Services</a>
+            <input id="search" type="text" placeholder="search...">
+            <span id="spanRootNav">
+                <div id="divRootNav">
+                    <!-- <a href="#" class="linkSpanrootNav">Jobs</a>
+                <a href="#" class="linkSpanrootNav">Spaces</a>
+                <a href="#" class="linkSpanrootNav">Get Colified</a>
+                <a href="#" class="linkSpanrootNav">My W3Schools</a> -->
+                    <img src="images/person.png" alt="personal image" style="height: 55px; width: 60px;">
+                </div>
+
+            </span>
+            <div style="clear: both;"></div>
+        </div>
+        <div id="nav">
+            <a class="linkNav" href="#">HTML</a>
+            <a class="linkNav" href="#">CSS</a>
+            <a class="linkNav" href="#">JS</a>
+            <a class="linkNav" href="#">SQL</a>
+            <a class="linkNav" href="#">PYTHON</a>
+            <a class="linkNav" href="#">JAVA</a>
+            <a class="linkNav" href="#">PHP</a>
+            <a class="linkNav" href="#">HOW TO</a>
+            <a class="linkNav" href="#">W3.CSS</a>
+            <a class="linkNav" href="#">C</a>
+            <a class="linkNav" href="#">C++</a>
+            <a class="linkNav" href="#">C#</a>
+            <a class="linkNav" href="#">BOOTSTRAP</a>
+            <a class="linkNav" href="#">MY SQL</a>
+            <a class="linkNav" href="#">REACT</a>
+            <a class="linkNav" href="#">XML</a>
+
+        </div>
+        <nav>
+            <h2 id="h2inNav">HTML Tutorial</h2>
+            <a class="linkNavleft" href="home.html">HTML HOME</a>
+            <a class="linkNavleft" href="html_Introduction.html">HTML Introduction</a>
+            <a class="linkNavleft" href="#">HTML Editors</a>
+            <a id="homePage" class="linkNavleft" href="#">HTML Basic</a>
+            <a class="linkNavleft" href="#">HTML Elements</a>
+            <a class="linkNavleft" href="#">HTML Attributes</a>
+            <a class="linkNavleft" href="#">HTML Headings</a>
+            <a class="linkNavleft" href="#">HTML paragraphs</a>
+            <a class="linkNavleft" href="#">HTML Styles</a>
+            <a class="linkNavleft" href="#">HTML Formating</a>
+            <a class="linkNavleft" href="#">HTML Quotations</a>
+            <a class="linkNavleft" href="#">HTML Comments</a>
+            <a class="linkNavleft" href="#">HTML Colors</a>
+            <a class="linkNavleft" href="#">HTML CSS</a>
+            <a class="linkNavleft" href="#">HTML Links</a>
+            <a class="linkNavleft" href="#">HTML Images</a>
+            <a class="linkNavleft" href="#">HTML Favicon</a>
+            <a class="linkNavleft" href="#">HTML Page Title</a>
+            <a class="linkNavleft" href="#">HTML Tables</a>
+            <a class="linkNavleft" href="#">HTML Lists</a>
+            <a class="linkNavleft" href="#">HTML Blo</a>
+            <a class="linkNavleft" href="#">HTML Introduction</a>
+            <a class="linkNavleft" href="#">HTML Introduction</a>
+            <a class="linkNavleft" href="#">HTML Introduction</a>
+            <a class="linkNavleft" href="#">HTML Introduction</a>
+            <a class="linkNavleft" href="#">HTML Introduction</a>
+            <a class="linkNavleft" href="#">HTML Introduction</a>
+            <a class="linkNavleft" href="#">HTML Introduction</a>
+            <a class="linkNavleft" href="#">HTML Introduction</a>
+            <a class="linkNavleft" href="#">HTML Introduction</a>
+            <a class="linkNavleft" href="#">HTML Introduction</a>
+            <a class="linkNavleft" href="#">HTML Introduction</a>
+            <a class="linkNavleft" href="#">HTML Introduction</a>
+            <a class="linkNavleft" href="#">HTML Introduction</a>
+
+        </nav>
+        <aside>
+            <img src="images/newpng7.png" alt="">
+            <img src="images/newpng2.png" alt="">
+            <img src="images/newpng4.png" alt="">
+            <img src="images/newspng.png" alt="">
+            <img src="images/newpng2.png" alt="">
+
+
+        </aside>
+        <article style="margin-top: 4%; margin-bottom: 3%;">
+            <h1>HTML Basic Examples</h1>
+            <a class="previus" href="#">&lt;Previous</a>
+            <a class="next" href="#">Next &gt;</a>
+            <div class="clear"></div>
+            <hr>
+            <div>
+                <p>In this chapter we will show some basic HTML examples.</p>
+                <p>Don't worry if we use tags you have not learned about yet.</p>
+            </div>
+            <hr>
+            <div>
+                <h2>HTML Documents</h2>
+                <p>All HTML documents must start with a document type declaration: <span
+                        class="spanOfexample">&lt;!DOCTYPE html></span>.</p>
+                <p>The HTML document itself begins with <span class="spanOfexample">&lt; html> </span>and ends with
+                    <span class="spanOfexample">&lt; /html> </span>
+                </p>
+                <p>The visible part of the HTML document is between <span class="spanOfexample">&lt; body> </span> and
+                    <span class="spanOfexample">&lt; /body> </span>
+                </p>
+                <div class="divExample" style="height: 360px;">
+                    <h3>Example</h3>
+                    <div class="example" style="font-family: Consolas;">
+
+                        <span class="spanCode"><span class="ltORgt">&lt;</span><span class="tagElemant">!DOCTYPE
+                            </span><span style="color: red;">html</span> <span class="ltORgt">&gt;</span></span>
+                        <span class="spanCode"><span class="ltORgt">&lt;</span><span class="tagElemant">html</span><span
+                                class="ltORgt">&gt;</span></span>
+                        <span class="spanCode"><span class="ltORgt">&lt;</span><span class="tagElemant">body</span><span
+                                class="ltORgt">&gt;</span></span>
+                        <br>
+                        <span class="spanCode"><span class="ltORgt">&lt;</span><span class="tagElemant">h1</span><span
+                                class="ltORgt">&gt;</span>This is a Heading<span class="ltORgt">&lt;</span><span
+                                class="tagElemant">/h1</span><span class="ltORgt">&gt;</span></span>
+                        <span class="spanCode"><span class="ltORgt">&lt;</span><span class="tagElemant">p</span><span
+                                class="ltORgt">&gt;</span>This is a paragraph.<span class="ltORgt">&lt;</span><span
+                                class="tagElemant">/p</span><span class="ltORgt">&gt;</span></span>
+                        <br>
+                        <span class="spanCode"><span class="ltORgt">&lt;</span><span
+                                class="tagElemant">/body</span><span class="ltORgt">&gt;</span></span>
+                        <span class="spanCode"><span class="ltORgt">&lt;</span><span
+                                class="tagElemant">/html</span><span class="ltORgt">&gt;</span></span>
+                    </div>
+                    <a class="previus" href="#">Try it Yourself »</a>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <h2>The &lt;!DOCTYPE> Declaration</h2>
+                <p>The <span class="spanOfexample">&lt;!DOCTYPE></span> declaration represents the document type, and
+                    helps browsers to display web pages correctly.</p>
+                <p>It must only appear once, at the top of the page (before any HTML tags).</p>
+                <p>The <span class="spanOfexample">&lt;!DOCTYPE></span> declaration is not case sensitive.</p>
+                <p>The <span class="spanOfexample">&lt;!DOCTYPE></span> declaration for HTML5 is:</p>
+                <div class="divExample" style="height: fit-content;">
+                    <div class="example" style="font-family: Consolas; margin-top: 15px;">
+                        <span class="spanCode"><span class="ltORgt">&lt;</span><span class="tagElemant">!DOCTYPE
+                            </span><span style="color: red;">html</span> <span class="ltORgt">&gt;</span></span>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <div>
+                <h2>HTML Headings</h2>
+                <p>HTML headings are defined with the <span class="spanOfexample">&lt;h1></span> to <span
+                        class="spanOfexample">&lt;h6></span> tags.</p>
+                <p><span class="spanOfexample">&lt;h1></span> defines the most important heading. <span
+                        class="spanOfexample">&lt;h6></span> defines the least important heading:</p>
+                <div class="divExample" style="height: 220px; ">
+                    <h3>Example</h3>
+                    <div class="example" style="font-family: Consolas; margin-top: 15px;">
+                        <span class="spanCode"><span class="ltORgt">&lt;</span><span class="tagElemant">h1</span><span
+                                class="ltORgt">&gt;</span> This is heading 1<span class="ltORgt">&lt;</span><span
+                                class="tagElemant">/h1</span><span class="ltORgt">&gt;</span></span>
+                        <span class="spanCode"><span class="ltORgt">&lt;</span><span class="tagElemant">h2</span><span
+                                class="ltORgt">&gt;</span> This is heading 2<span class="ltORgt">&lt;</span><span
+                                class="tagElemant">/h2</span><span class="ltORgt">&gt;</span></span>
+                        <span class="spanCode"><span class="ltORgt">&lt;</span><span class="tagElemant">h3</span><span
+                                class="ltORgt">&gt;</span> This is heading 3<span class="ltORgt">&lt;</span><span
+                                class="tagElemant">/h3</span><span class="ltORgt">&gt;</span></span>
+
+                    </div>
+                    <a class="previus" href="#">Try it Yourself »</a>
+                </div>
+
+            </div>
+            <hr>
+            <hr>
+            <div>
+                <h2>HTML Paragraphs</h2>
+                <p>HTML paragraphs are defined with the <span class="spanOfexample">&lt;p></span> tag:</p>
+                <div class="divExample" style="height: 200px; ">
+                    <h3>Example</h3>
+                    <div class="example" style="font-family: Consolas; margin-top: 15px;">
+                        <span class="spanCode"><span class="ltORgt">&lt;</span><span class="tagElemant">p</span><span
+                                class="ltORgt">&gt;</span> This is a paragraph.<span class="ltORgt">&lt;</span><span
+                                class="tagElemant">/p</span><span class="ltORgt">&gt;</span></span>
+                        <span class="spanCode"><span class="ltORgt">&lt;</span><span class="tagElemant">p</span><span
+                                class="ltORgt">&gt;</span> This is another paragraph.<span
+                                class="ltORgt">&lt;</span><span class="tagElemant">/p</span><span
+                                class="ltORgt">&gt;</span></span>
+                    </div>
+                    <a class="previus" href="#">Try it Yourself »</a>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <h2>HTML Links</h2>
+                <p>HTML links are defined with the <span class="spanOfexample">&lt;a></span> tag:</p>
+                <div class="divExample" style="height: 180px; ">
+                    <h3>Example</h3>
+                    <div class="example" style="font-family: Consolas; margin-top: 15px;">
+                        <span class="spanCode"><span class="ltORgt">&lt;</span><span class="tagElemant">a</span> <span
+                                style="color: red;">href</span> <span
+                                style="color: blue;">"https://www.w3schools.com"</span><span class="ltORgt">&gt;</span>
+                            This is a link<span class="ltORgt">&lt;</span><span class="tagElemant">/a</span><span
+                                class="ltORgt">&gt;</span></span>
+
+                    </div>
+                    <a class="previus" href="#">Try it Yourself »</a>
+                </div>
+                <p>The link's destination is specified in the<span class="spanOfexample"> href </span> attribute.</p>
+                <p>Attributes are used to provide additional information about HTML elements.</p>
+                <p>You will learn more about attributes in a later chapter.</p>
+            </div>
+            <hr>
+            <div>
+                <h2>HTML Links</h2>
+                <p>HTML images are defined with the<span class="spanOfexample"> &ltimg>; </span>tag:</p>
+                <p>The source file (<span class="spanOfexample"> src </span>), alternative text(<span
+                        class="spanOfexample"> alt </span>), <span class="spanOfexample"> width </span>, and<span
+                        class="spanOfexample"> height </span>are provided as attributes:</p>
+                <div class="divExample" style="height: 180px; ">
+                    <h3>Example</h3>
+                    <div class="example" style="font-family: Consolas; margin-top: 15px;">
+                        <span class="spanCode"><span class="ltORgt">&lt;</span><span class="tagElemant">a</span>
+                            <span style="color: red;">src</span> <span style="color: blue;">"w3schools.jpg"</span>
+                            <span style="color: red;">alt</span> <span style="color: blue;">"W3Schools.com"</span>
+                            <span style="color: red;">width</span> <span style="color: blue;">"104"</span>
+                            <span style="color: red;">height</span> <span style="color: blue;">"160"</span>
+                            <span class="ltORgt">&gt;</span>This is a link<span class="ltORgt">&lt;</span><span
+                                class="tagElemant">/a</span><span class="ltORgt">&gt;</span></span>
+                    </div>
+                    <a class="previus" href="#">Try it Yourself »</a>
+                </div>
+
+            </div>
+            <hr>
+            <div style="margin-bottom: 30px;">
+                <h2>How to View HTML Source</h2>
+                <p>Have you ever seen a Web page and wondered "Hey! How did they do that?"</p>
+                <h3>View HTML Source Code:</h3>
+                <p>Click CTRL + U in an HTML page, or right-click on the page and select "View Page Source". This will
+                    open a new tab containing the HTML source code of the page.</p>
+                <h3>Inspect an HTML Element:</h3>
+                <p>Right-click on an element (or a blank area), and choose "Inspect" to see what elements are made up of
+                    (you will see both the HTML and the CSS). You can also edit the HTML or CSS on-the-fly in the
+                    Elements or Styles panel that opens.</p>
+            </div>
+            <div style="height: fit-content; text-align: center; position: relative;">
+                <a class="previus" href="#">&lt; Home</a>
+                <div class="container">
+                    <div class="center">
+                        <button id="linkBeforeFooter" class="previus">Log into track progress</button>
+                    </div>
+                </div>
+                <a class="next" href="#">Next &gt;</a>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <div class="footerContener">
+            <div>
+                <a href="#" class="linkFooter">SPACES</a>
+                <a href="#" class="linkFooter">UPGRADE</a>
+                <a href="#" class="linkFooter">NEWSLETTER</a>
+                <a href="#" class="linkFooter">GET CERTIFIED</a>
+                <a href="#" class="linkFooter"> REPORT ERROR</a>
+            </div>
+            <div>
+                <div class="divFooter">
+                    <h3>Top Tutorials</h3>
+                    <a href="#" class="link">HTML Tutorial</a>
+                    <a href="#" class="link">JavaScript Tutorial</a>
+                    <a href="#" class="link">SQL Tutorial</a>
+                    <a href="#" class="link">How To Tutorial</a>
+                    <a href="#" class="link">Python Tutorial</a>
+                    <a href="#" class="link">JavaScript Tutorial</a>
+                    <a href="#" class="link">W3.CSS Tutorial</a>
+                    <a href="#" class="link">Bootstrap Tutorial</a>
+                    <a href="#" class="link">PHP Tutorial</a>
+                    <a href="#" class="link">Java Tutorial</a>
+                    <a href="#" class="link">C++ Tutorial</a>
+                    <a href="#" class="link">jQuery Tutorial</a>
+
+                </div>
+                <div class="divFooter">
+                    <h3>Top References</h3>
+                    <a href="#" class="link">HTML Reference</a>
+                    <a href="#" class="link">CSS Reference</a>
+                    <a href="#" class="link">JavaScript Reference</a>
+                    <a href="#" class="link">SQL Reference</a>
+                    <a href="#" class="link">Python Reference</a>
+                    <a href="#" class="link">W3.CSS Reference</a>
+                    <a href="#" class="link">Bootstrap Reference</a>
+                    <a href="#" class="link">PHP Reference</a>
+                    <a href="#" class="link">HTML Colors</a>
+                    <a href="#" class="link">Java Reference</a>
+                    <a href="#" class="link">Angular Reference</a>
+                    <a href="#" class="link">jQuery Reference</a>
+                </div>
+                <div class="divFooter">
+                    <h3>Top Examples</h3>
+                    <a href="#" class="link">HTML Examples</a>
+                    <a href="#" class="link">CSS Examples</a>
+                    <a href="#" class="link">JavaScript Examples</a>
+                    <a href="#" class="link">How To Examples</a>
+                    <a href="#" class="link">SQL Examples</a>
+                    <a href="#" class="link">Python Examples</a>
+                    <a href="#" class="link">W3.CSS Examples</a>
+                    <a href="#" class="link">Bootstrap Examples</a>
+                    <a href="#" class="link">PHP Examples</a>
+                    <a href="#" class="link">Java Examples</a>
+                    <a href="#" class="link">XML Examples</a>
+                    <a href="#" class="link">jQuery Examples</a>
+                </div>
+                <div class="divFooter">
+                    <h3>Get Certified</h3>
+                    <a href="#" class="link">HTML Certificate</a>
+                    <a href="#" class="link">CSS Certificate</a>
+                    <a href="#" class="link">JavaScript Certificate</a>
+                    <a href="#" class="link">Front End Certificate</a>
+                    <a href="#" class="link">SQL Certificate</a>
+                    <a href="#" class="link">Python Certificate</a>
+                    <a href="#" class="link">PHP Certificate</a>
+                    <a href="#" class="link">jQuery Certificate</a>
+                    <a href="#" class="link">Java Certificate</a>
+                    <a href="#" class="link">C++ Certificate</a>
+                    <a href="#" class="link">C# Certificate</a>
+                    <a href="#" class="link">XML Certificate</a>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <p style="width: 70%; font-size: 14px; margin-top: 50px;">
+                W3Schools is optimized for learning and training. Examples might be simplified to improve reading and
+                learning.
+                Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full
+                correctness
+                of all content. While using W3Schools, you agree to have read and accepted our <a class="endlink"
+                    href="#">terms of use</a>, <a class="endlink" href="#"> cookie and privacy policy.</a>
+            </p>
+            <p style="font-size: 14px;"><a class="endlink" href="#">Copyright 1999-2023 by Refsnes Data.</a> All Rights
+                Reserved. <a class="endlink" href="#">W3Schools is Powered by W3.CSS.</a></p>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
